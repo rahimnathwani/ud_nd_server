@@ -3,8 +3,12 @@
 ## To access the server over SSH
 Use ssh to port 2200 of 52.10.102.193:
 ```
-ssh -i ~/.ssh/<key> -p 2200 <user>@52.10.102.193
+ssh -i ~/.ssh/<key> -p 2200 grader@52.10.102.193
 ```
+
+## Get root
+`sudo su`
+grader's password is `qwertyuiop`
 
 ## To access the web application
 Visit: `http://52.10.102.193/`
